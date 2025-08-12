@@ -49,23 +49,25 @@ const About = () => {
               Crafting Digital Excellence
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              With over 5 years of experience in web development, I specialize in creating 
-              modern, responsive, and user-friendly applications. My journey started with 
-              curiosity about how websites work, and it has evolved into a passion for 
-              building products that make a difference.
+              As a passionate full-stack developer with expertise in AI/ML integration, 
+              web scraping, and modern web technologies, I specialize in creating 
+              intelligent, scalable solutions. My experience spans from building 
+              AI agent orchestration platforms to developing sophisticated web scrapers 
+              and creative studio websites.
             </p>
             <p className="text-text-secondary leading-relaxed">
-              I believe in clean code, thoughtful design, and continuous learning. 
-              Whether it's a complex web application or a simple landing page, 
-              I approach every project with attention to detail and commitment to quality.
+              I believe in clean, efficient code and innovative problem-solving. 
+              Whether it's orchestrating multiple AI agents, extracting valuable data 
+              from complex web sources, or crafting beautiful user interfaces, 
+              I approach every project with technical excellence and creative thinking.
             </p>
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-6">
               {[
-                { number: '50+', label: 'Projects Completed' },
-                { number: '5+', label: 'Years Experience' },
-                { number: '100%', label: 'Client Satisfaction' },
+                { number: '10+', label: 'Projects Completed' },
+                { number: '3+', label: 'Years Experience' },
+                { number: '100%', label: 'Code Quality' },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="text-2xl font-bold text-gradient">{stat.number}</div>

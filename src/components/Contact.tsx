@@ -42,27 +42,27 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'raj.shah@example.com',
-      href: 'mailto:raj.shah@example.com',
+      value: 'rajshah9305@gmail.com',
+      href: 'mailto:rajshah9305@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: 'Available on request',
+      href: '#',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Available for Remote Work',
       href: '#',
     },
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/rajshah9305', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/rajshah9305', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://twitter.com/rajshah9305', label: 'Twitter' },
   ];
 
   return (

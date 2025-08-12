@@ -23,8 +23,8 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/rajshah9305', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/rajshah9305', label: 'LinkedIn' },
     { icon: Mail, href: '#contact', label: 'Email' },
   ];
 
@@ -80,8 +80,8 @@ const Footer = () => {
               ))}
             </div>
             <div className="space-y-2 text-sm text-text-secondary">
-              <p>raj.shah@example.com</p>
-              <p>San Francisco, CA</p>
+              <p>rajshah9305@gmail.com</p>
+              <p>Available for Remote Work</p>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ const Hero = () => {
 
           {/* Skills Pills */}
           <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {['React', 'TypeScript', 'Node.js', 'Next.js', 'Python', 'UI/UX'].map((skill) => (
+            {['Python', 'React', 'AI/ML', 'Web Scraping', 'TypeScript', 'Docker'].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-2 glass-effect rounded-full text-sm text-text-primary border border-primary/20 hover:border-primary/40 transition-all duration-300"
@@ -76,8 +76,8 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/rajshah9305', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://linkedin.com/in/rajshah9305', label: 'LinkedIn' },
               { icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a

@@ -3,6 +3,11 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from 'lucide-react';
+import aiPlatformImage from '@/assets/ai-platform.jpg';
+import webScraperImage from '@/assets/web-scraper.jpg';
+import avantStudioImage from '@/assets/avant-studio.jpg';
+import fanpageImage from '@/assets/fanpage.jpg';
+import portfolioImage from '@/assets/portfolio.jpg';
 
 const Projects = () => {
   const [currentProject, setCurrentProject] = useState(0);
@@ -10,52 +15,52 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, order management, and an admin dashboard.',
-      image: '/placeholder.svg',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'TypeScript'],
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'AI Agent Orchestration Platform',
+      description: 'A sophisticated platform for orchestrating multiple AI agents to work collaboratively on complex tasks. Features include agent coordination, task distribution, real-time monitoring, and intelligent workflow management.',
+      image: aiPlatformImage,
+      tags: ['Python', 'AI/ML', 'Microservices', 'Docker', 'FastAPI', 'Redis'],
+      liveUrl: 'https://github.com/rajshah9305/AIAgentOrchestrationPlatform',
+      githubUrl: 'https://github.com/rajshah9305/AIAgentOrchestrationPlatform',
       featured: true,
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: '/placeholder.svg',
-      tags: ['Next.js', 'Socket.io', 'MongoDB', 'Tailwind CSS'],
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Advanced Web Scraper',
+      description: 'A robust and scalable web scraping solution with advanced features including anti-detection mechanisms, proxy rotation, data parsing, and automated data extraction workflows.',
+      image: webScraperImage,
+      tags: ['Python', 'Selenium', 'BeautifulSoup', 'Scrapy', 'PostgreSQL', 'Docker'],
+      liveUrl: 'https://github.com/rajshah9305/scraper_advanced',
+      githubUrl: 'https://github.com/rajshah9305/scraper_advanced',
       featured: true,
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that displays current conditions and forecasts with beautiful data visualizations and location-based services.',
-      image: '/placeholder.svg',
-      tags: ['React', 'Chart.js', 'OpenWeather API', 'Geolocation'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false,
+      title: 'Avant Studio',
+      description: 'A modern creative studio website showcasing design services and portfolio work. Built with modern web technologies and featuring beautiful animations and responsive design.',
+      image: avantStudioImage,
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Next.js'],
+      liveUrl: 'https://github.com/rajshah9305/Avant-studio',
+      githubUrl: 'https://github.com/rajshah9305/Avant-studio',
+      featured: true,
     },
     {
       id: 4,
-      title: 'Social Media Analytics',
-      description: 'An analytics platform for social media managers to track engagement, follower growth, and content performance across multiple platforms.',
-      image: '/placeholder.svg',
-      tags: ['Vue.js', 'D3.js', 'Express', 'Social Media APIs'],
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Fan Page Platform',
+      description: 'An interactive fan page platform that allows users to create dedicated pages for their favorite celebrities, artists, or brands with social features and content management.',
+      image: fanpageImage,
+      tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io', 'AWS'],
+      liveUrl: 'https://github.com/rajshah9305/fanpage',
+      githubUrl: 'https://github.com/rajshah9305/fanpage',
       featured: false,
     },
     {
       id: 5,
       title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with React and TypeScript, featuring smooth animations and optimized performance.',
-      image: '/placeholder.svg',
-      tags: ['React', 'TypeScript', 'Framer Motion', 'Vercel'],
+      description: 'A modern, responsive portfolio website built with React and TypeScript, featuring smooth animations, dark theme, and optimized performance.',
+      image: portfolioImage,
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Lucide Icons'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/rajshah9305',
       featured: false,
     },
   ];
